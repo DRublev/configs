@@ -19,17 +19,15 @@
 	// }
 
 	"TODO list template": {
-		"scope": "*",
 		"prefix": "todo",
 		"body": [
-			"/* TODO",
-			"$1",
+			"/** TODO",
+			" ** -- $1",
 			"*/"
 		],
 		"description": "Paste mine TODO list template (use with tdi snippet)"
 	},
 	"TODO list item": {
-		"scope": "*",
 		"prefix": "tdi",
 		"body": [
 			"** -- $1",
@@ -37,7 +35,6 @@
 		"description": "Paste TODO list item (i use them as trackers)",
 	},
 	"Check emoji": {
-		"scope": "*",
 		"prefix": "check",
 		"body": [
 			"✅ $1",
